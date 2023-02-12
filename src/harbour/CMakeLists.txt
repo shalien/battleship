@@ -3,6 +3,8 @@ project(harbour C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(${PROJECT_NAME} main.c)
+find_package(Threads)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE battleship_hull)
+add_executable(${PROJECT_NAME} main.c server.c server.h demon.c demon.h)
+
+target_link_libraries(${PROJECT_NAME} PRIVATE battleship_hull Threads::Threads)

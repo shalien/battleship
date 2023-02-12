@@ -9,7 +9,7 @@
 #include "siren.h"
 
 
-extern void log_message(const char *file, int line, const char *format, ...) {
+extern void log_message(const char *file, int line, pid_t pid, const char *format, ...) {
     va_list args;
     va_start(args, format);
 
@@ -18,14 +18,14 @@ extern void log_message(const char *file, int line, const char *format, ...) {
     struct tm *timeinfo = localtime(&now);
     strftime(date_time_str, 100, "%Y-%m-%d %H:%M:%S", timeinfo);
 
-    fprintf(stdout, "[%s][%s:%d] ", date_time_str, file, line);
+    fprintf(stdout, "[%s][%s:%d][%d] ", date_time_str, file, line, pid);
     vfprintf(stdout, format, args);
     fprintf(stdout, "\n");
 
     va_end(args);
 }
 
-extern void log_error(const char *file, int line, const char *format, ...) {
+extern void log_error(const char *file, int line, pid_t pid, const char *format, ...) {
     va_list args;
     va_start(args, format);
 
@@ -34,7 +34,7 @@ extern void log_error(const char *file, int line, const char *format, ...) {
     struct tm *timeinfo = localtime(&now);
     strftime(date_time_str, 100, "%Y-%m-%d %H:%M:%S", timeinfo);
 
-    fprintf(stderr, "[%s][%s:%d] ", date_time_str, file, line);
+    fprintf(stderr, "[%s][%s:%d][%d] ", date_time_str, file, line, pid);
     vfprintf(stderr, format, args);
     fprintf(stderr, "\n");
 

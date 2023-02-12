@@ -3,13 +3,15 @@
 //
 
 #include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
 
 #ifndef BATTLESHIP_SIREN_H
 #define BATTLESHIP_SIREN_H
 
-#define L(format, ...) log_message(__FILE_NAME__, __LINE__, format, ##__VA_ARGS__)
+#define L(format, ...) log_message(__FILE_NAME__, __LINE__, getpid(), format, ##__VA_ARGS__)
 
-#define E(format, ...) log_error(__FILE_NAME__, __LINE__, format, ##__VA_ARGS__)
+#define E(format, ...) log_error(__FILE_NAME__, __LINE__, getpid(), format, ##__VA_ARGS__)
 
 
 /**
@@ -18,8 +20,8 @@
  * @param content the text content to print
  * @param ... the formatted data
  */
-extern void log_message(const char *file, int line, const char *format, ...);
+extern void log_message(const char *file, int line, pid_t pid, const char *format, ...);
 
-extern void log_error(const char *file, int line, const char *format, ...);
+extern void log_error(const char *file, int line, pid_t pid, const char *format, ...);
 
 #endif //BATTLESHIP_SIREN_H

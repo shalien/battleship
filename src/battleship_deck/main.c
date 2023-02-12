@@ -8,7 +8,5 @@
 
 
 int main() {
-    printf("Hello wolrd !");
-    l("");
-    exit(EXIT_SUCCESS);
+
 }
