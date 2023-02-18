@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="battleship_rudder"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\battleship_hull\;CMake Files\src\harbour\;CMake Files\src\battleship_rudder\;CMake Files\src\battleship_deck\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleship_rudder">
+				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/battleship_rudder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 battleship_rudder"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleship_rudder/fast">
+				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/battleship_rudder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 battleship_rudder/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/main.c">
+			<Option target="battleship_rudder"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/window.c">
+			<Option target="battleship_rudder"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/window.h">
+			<Option target="battleship_rudder"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\battleship_hull\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\harbour\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\battleship_rudder\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_deck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\battleship_deck\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

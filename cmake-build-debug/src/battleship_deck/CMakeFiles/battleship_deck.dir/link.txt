@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/battleship_deck.dir/main.c.o -o battleship_deck  ../battleship_hull/libbattleship_hull.a 

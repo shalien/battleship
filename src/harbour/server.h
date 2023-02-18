@@ -4,5 +4,5 @@
 
 #ifndef BATTLESHIP_SERVER_H
 #define BATTLESHIP_SERVER_H
-void yes();
+void start_server();
 #endif //BATTLESHIP_SERVER_H

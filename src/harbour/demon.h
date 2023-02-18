@@ -7,4 +7,6 @@
 
 void demonize();
 
+void signal_action(int num);
+
 #endif //BATTLESHIP_DEMON_H

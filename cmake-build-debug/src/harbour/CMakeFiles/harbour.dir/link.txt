@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/harbour.dir/main.c.o CMakeFiles/harbour.dir/server.c.o CMakeFiles/harbour.dir/demon.c.o -o harbour  ../battleship_hull/libbattleship_hull.a -pthread 

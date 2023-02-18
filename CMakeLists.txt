@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(battleship C)
+project(battleship LANGUAGES C VERSION 0.0.1)
 
 set(CMAKE_C_STANDARD 23)
 

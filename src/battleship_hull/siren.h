@@ -13,6 +13,7 @@
 
 #define E(format, ...) log_error(__FILE_NAME__, __LINE__, getpid(), format, ##__VA_ARGS__)
 
+#define EE(format, ...) log_error_errno(__FILE_NAME__, __LINE__, getpid(), format, ##__VA_ARGS__)
 
 /**
  * Logging function
@@ -23,5 +24,7 @@
 extern void log_message(const char *file, int line, pid_t pid, const char *format, ...);
 
 extern void log_error(const char *file, int line, pid_t pid, const char *format, ...);
+
+extern void log_error_errno(const char *file, int line, pid_t pid, const char *format, ...);
 
 #endif //BATTLESHIP_SIREN_H

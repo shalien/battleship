@@ -1,0 +1,14 @@
+# ninja log v5
+184	440	1676279797750272200	src/battleship_hull/CMakeFiles/battleship_hull.dir/logo.c.o	812baa56dbe2235f
+764	1462	1676645893916633500	src/harbour/harbour	710ec9738f0e7d50
+137	575	1676645893007556100	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
+118	629	1676645893024559500	src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o	8e4fb191b8d574e3
+127	716	1676645893052885000	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
+650	757	1676645893193935400	src/battleship_hull/libbattleship_hull.a	591de58e584d0d54
+149	676	1676645893019559400	src/harbour/CMakeFiles/harbour.dir/demon.c.o	ccdd1b75048fd590
+114	371	1676647142807029500	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
+139	477	1676647163042407100	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
+506	1159	1676647163747579400	src/harbour/harbour	710ec9738f0e7d50
+142	538	1676648028149524000	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
+118	426	1676648036816945800	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
+452	1027	1676648037442110700	src/harbour/harbour	710ec9738f0e7d50
