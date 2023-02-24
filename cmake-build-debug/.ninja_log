@@ -1,14 +1,14 @@
 # ninja log v5
-184	440	1676279797750272200	src/battleship_hull/CMakeFiles/battleship_hull.dir/logo.c.o	812baa56dbe2235f
-764	1462	1676645893916633500	src/harbour/harbour	710ec9738f0e7d50
-137	575	1676645893007556100	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
-118	629	1676645893024559500	src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o	8e4fb191b8d574e3
-127	716	1676645893052885000	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
-650	757	1676645893193935400	src/battleship_hull/libbattleship_hull.a	591de58e584d0d54
-149	676	1676645893019559400	src/harbour/CMakeFiles/harbour.dir/demon.c.o	ccdd1b75048fd590
-114	371	1676647142807029500	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
-139	477	1676647163042407100	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
-506	1159	1676647163747579400	src/harbour/harbour	710ec9738f0e7d50
-142	538	1676648028149524000	src/harbour/CMakeFiles/harbour.dir/main.c.o	585d8fbf6eb12b7c
-118	426	1676648036816945800	src/harbour/CMakeFiles/harbour.dir/server.c.o	311f908e735ad28f
-452	1027	1676648037442110700	src/harbour/harbour	710ec9738f0e7d50
+1	25	1676703588993709725	src/battleship_hull/CMakeFiles/battleship_hull.dir/logo.c.o	7e29cbf4acfc34b3
+0	4	0	clean	2dab8b7e15729470
+30	55	1677094129734333713	src/harbour/harbour	4c330d13c7370bbd
+1	67	1677232006597637000	src/battleship_hull/libbattleship_hull.a	aa4989711273493b
+1	36	1677236912015511675	src/battleship_rudder/CMakeFiles/battleship_rudder.dir/window.c.o	da48ef0687e19bd1
+1	241	1676929491155455105	src/harbour/CMakeFiles/harbour.dir/main.c.o	f333beae17bdf408
+27	53	1676703657000877379	src/battleship_deck/battleship_deck	f2893b8b66905588
+1	31	1676707532200168107	src/harbour/CMakeFiles/harbour.dir/demon.c.o	15c3b4e77162ba73
+1	30	1676929574736887101	src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o	236a41f073da06df
+1	30	1677094129708387076	src/harbour/CMakeFiles/harbour.dir/server.c.o	a3822cf014ab64b5
+1	27	1676703656973634763	src/battleship_deck/CMakeFiles/battleship_deck.dir/main.c.o	392c0d695c6a3339
+36	68	1677236912048501012	src/battleship_rudder/battleship_rudder	bf57feb79520c6c4
+3	1561	1677236825337953397	src/battleship_rudder/CMakeFiles/battleship_rudder.dir/main.c.o	60a302eda25aa080

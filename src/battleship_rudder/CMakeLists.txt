@@ -3,7 +3,7 @@ project(battleship_rudder C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_compile_options(-Wall -O2)
+add_compile_options(-Wall)
 
 find_package(Threads REQUIRED)
 find_package(Curses REQUIRED)

@@ -3,26 +3,60 @@
 //
 
 #include <ncurses.h>
+#include <string.h>
 #include "window.h"
 #include "../battleship_hull/siren.h"
-#include "../battleship_hull/logo.h"
 
-int rows, cols;
+int lines, cols;
 
-extern void init_screen() {
+void init_screen() {
+
     initscr();
+    getmaxyx(stdscr, lines, cols);
 
-    getmaxyx(stdscr, rows, cols);
-    resizeterm(120, 120);
-
-    keypad(stdscr, TRUE);
     noecho();
-    cbreak();
+    nocbreak();
+    keypad(stdscr, TRUE);
 
-    WINDOW* title = newwin(100, 100, 20, 20);
-    wprintw(title, logo_txt);
-    wrefresh(title);
+    WINDOW* main = newwin(lines, cols, 0, 0);
+
+    box(main, 0, 0);
+    mvwprintw(main, 1, center_text("Battleship"), "Battleship");
+
+    mvwprintw(main, lines - 1, bottom_right_text("xx x yy") - 1, "%d x %d", lines, cols);
+    // refreshes the screen
+    refresh();
+    wrefresh(main);
+    wrefresh(main);
+
+    // pause the screen output
+    do {
 
 
 
+    } while (getch() != 'c');
+    // deallocates memory and ends ncurses
+    endwin();
+
+}
+
+/**
+ *
+ * Quick function to find the starting point for centering the text
+ *
+ * @param format
+ * @return
+ */
+int center_text(const char* format) {
+
+    int txtlen = strlen(format);
+
+    return (cols / 2) - (txtlen / 2);
+
+}
+
+int bottom_right_text(const char* format) {
+    int txtlen = strlen(format);
+
+    return cols - txtlen;
 }

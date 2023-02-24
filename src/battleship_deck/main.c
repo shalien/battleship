@@ -7,6 +7,6 @@
 #include "../battleship_hull/siren.h"
 
 
-int main() {
+int main(int argc, char *argv[]) {
 
 }

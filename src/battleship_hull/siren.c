@@ -51,7 +51,7 @@ extern void log_error_errno(const char *file, int line, pid_t pid, const char *f
     struct tm *timeinfo = localtime(&now);
     strftime(date_time_str, 100, "%Y-%m-%d %H:%M:%S", timeinfo);
 
-    fprintf(stderr, "[%s][%s:%d][%d][%d]%s", date_time_str, file, line, pid, errno, strerror(errno));
+    fprintf(stderr, "[%s][%s:%d][%d][%d] %s ", date_time_str, file, line, pid, errno, strerror(errno));
     vfprintf(stderr, format, args);
     fprintf(stderr, "\n");
 

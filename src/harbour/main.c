@@ -15,10 +15,9 @@ int main() {
     L("starting harbour");
     L("Forking to demonize the server");
 
-    demonize();
+//    demonize();
 
     start_server();
-
 
     return EXIT_SUCCESS;
 }

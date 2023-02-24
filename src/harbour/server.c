@@ -20,13 +20,19 @@ int sockfd;
 
 
 void start_server() {
+
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0) {
         EE("Error while creating socket !");
         exit(EXIT_FAILURE);
     }
 
-    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT, &opt, sizeof(opt)) < 0) {
+    if (setsockopt(sockfd, SOL_SOCKET,  SO_REUSEPORT, &opt, sizeof(opt)) < 0) {
+        EE("Unable to define socket option");
+        exit(EXIT_FAILURE);
+    }
+
+    if (setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
         EE("Unable to define socket option");
         exit(EXIT_FAILURE);
     }
@@ -58,7 +64,7 @@ void start_server() {
         EE("Error while listening");
         exit(EXIT_FAILURE);
     } else {
-        L("Server listening on port %d", server_address.sin_port);
+        L("Server listening on port %d", ntohs(server_address.sin_port));
     }
 
     while (!is_close_requested()) {
