@@ -7,7 +7,7 @@ add_compile_options(-Wall)
 
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
-add_subdirectory(src/battleship_hull)
+add_subdirectory(src/hull)
 add_subdirectory(src/harbour)
-add_subdirectory(src/battleship_rudder)
-add_subdirectory(src/battleship_deck)
+add_subdirectory(src/rudder)
+add_subdirectory(src/deck)

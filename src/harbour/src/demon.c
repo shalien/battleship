@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 
 #include "demon.h"
-#include "../battleship_hull/siren.h"
+#include "../../hull/src/log/siren.h"
 
 
 /**

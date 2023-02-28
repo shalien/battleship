@@ -5,8 +5,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "../battleship_hull/siren.h"
-#include "demon.h"
+#include "../../hull/src/log/siren.h"
 #include "server.h"
 
 bool close_requested = false;

@@ -5,7 +5,7 @@
 #include <netinet/in.h>
 #include <stdlib.h>
 #include "server.h"
-#include "../battleship_hull/siren.h"
+#include "../../hull/src/log/siren.h"
 #include "main.h"
 
 int main_ports[] = {8477, 4777, 7773, 5419};

@@ -4,7 +4,7 @@
 
 
 #include <stdlib.h>
-#include "../battleship_hull/siren.h"
+#include "../../hull/src/log/siren.h"
 
 
 int main(int argc, char *argv[]) {

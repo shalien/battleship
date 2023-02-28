@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/shalien/CLionProjects/battleship/cmake-build-debug/
+cmake_ninja_workdir = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -56,7 +56,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/shalien/CLionProjects/battleship -B/Users/shalien/CLionProjects/battleship/cmake-build-debug
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S/mnt/c/Users/Ophelien/CLionProjects/battleship -B/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -65,75 +65,88 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shalien/CLionProjects/battleship/CMakeLists.txt
+# /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target battleship_hull
+# Object build statements for STATIC_LIBRARY target hull
 
 
 #############################################
-# Order-only phony target for battleship_hull
+# Order-only phony target for hull
 
-build cmake_object_order_depends_target_battleship_hull: phony || src/battleship_hull/CMakeFiles/battleship_hull.dir
+build cmake_object_order_depends_target_hull: phony || src/hull/CMakeFiles/hull.dir
 
-build src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o: C_COMPILER__battleship_hull_Debug /Users/shalien/CLionProjects/battleship/src/battleship_hull/siren.c || cmake_object_order_depends_target_battleship_hull
-  DEP_FILE = src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
-  OBJECT_DIR = src/battleship_hull/CMakeFiles/battleship_hull.dir
-  OBJECT_FILE_DIR = src/battleship_hull/CMakeFiles/battleship_hull.dir
+build src/hull/CMakeFiles/hull.dir/src/log/siren.c.o: C_COMPILER__hull_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/src/log/siren.c || cmake_object_order_depends_target_hull
+  DEP_FILE = src/hull/CMakeFiles/hull.dir/src/log/siren.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/hull/CMakeFiles/hull.dir
+  OBJECT_FILE_DIR = src/hull/CMakeFiles/hull.dir/src/log
 
-build src/battleship_hull/CMakeFiles/battleship_hull.dir/ncurses_utils.c.o: C_COMPILER__battleship_hull_Debug /Users/shalien/CLionProjects/battleship/src/battleship_hull/ncurses_utils.c || cmake_object_order_depends_target_battleship_hull
-  DEP_FILE = src/battleship_hull/CMakeFiles/battleship_hull.dir/ncurses_utils.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
-  OBJECT_DIR = src/battleship_hull/CMakeFiles/battleship_hull.dir
-  OBJECT_FILE_DIR = src/battleship_hull/CMakeFiles/battleship_hull.dir
+build src/hull/CMakeFiles/hull.dir/src/curses/curses_utils.c.o: C_COMPILER__hull_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/src/curses/curses_utils.c || cmake_object_order_depends_target_hull
+  DEP_FILE = src/hull/CMakeFiles/hull.dir/src/curses/curses_utils.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/hull/CMakeFiles/hull.dir
+  OBJECT_FILE_DIR = src/hull/CMakeFiles/hull.dir/src/curses
+
+build src/hull/CMakeFiles/hull.dir/src/utils/array_utils.c.o: C_COMPILER__hull_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/src/utils/array_utils.c || cmake_object_order_depends_target_hull
+  DEP_FILE = src/hull/CMakeFiles/hull.dir/src/utils/array_utils.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/hull/CMakeFiles/hull.dir
+  OBJECT_FILE_DIR = src/hull/CMakeFiles/hull.dir/src/utils
+
+build src/hull/CMakeFiles/hull.dir/src/utils/string_utils.c.o: C_COMPILER__hull_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/src/utils/string_utils.c || cmake_object_order_depends_target_hull
+  DEP_FILE = src/hull/CMakeFiles/hull.dir/src/utils/string_utils.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/hull/CMakeFiles/hull.dir
+  OBJECT_FILE_DIR = src/hull/CMakeFiles/hull.dir/src/utils
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target battleship_hull
+# Link build statements for STATIC_LIBRARY target hull
 
 
 #############################################
-# Link the static library src/battleship_hull/libbattleship_hull.a
+# Link the static library src/hull/libhull.a
 
-build src/battleship_hull/libbattleship_hull.a: C_STATIC_LIBRARY_LINKER__battleship_hull_Debug src/battleship_hull/CMakeFiles/battleship_hull.dir/siren.c.o src/battleship_hull/CMakeFiles/battleship_hull.dir/ncurses_utils.c.o
-  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+build src/hull/libhull.a: C_STATIC_LIBRARY_LINKER__hull_Debug src/hull/CMakeFiles/hull.dir/src/log/siren.c.o src/hull/CMakeFiles/hull.dir/src/curses/curses_utils.c.o src/hull/CMakeFiles/hull.dir/src/utils/array_utils.c.o src/hull/CMakeFiles/hull.dir/src/utils/string_utils.c.o
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = src/battleship_hull/CMakeFiles/battleship_hull.dir
+  OBJECT_DIR = src/hull/CMakeFiles/hull.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = src/battleship_hull/libbattleship_hull.a
-  TARGET_PDB = battleship_hull.a.dbg
+  TARGET_FILE = src/hull/libhull.a
+  TARGET_PDB = hull.a.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build src/battleship_hull/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+build src/hull/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/hull && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build src/battleship_hull/edit_cache: phony src/battleship_hull/CMakeFiles/edit_cache.util
+build src/hull/edit_cache: phony src/hull/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/battleship_hull/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/shalien/CLionProjects/battleship -B/Users/shalien/CLionProjects/battleship/cmake-build-debug
+build src/hull/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/hull && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S/mnt/c/Users/Ophelien/CLionProjects/battleship -B/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build src/battleship_hull/rebuild_cache: phony src/battleship_hull/CMakeFiles/rebuild_cache.util
+build src/hull/rebuild_cache: phony src/hull/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shalien/CLionProjects/battleship/CMakeLists.txt
+# /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -143,28 +156,28 @@ build src/battleship_hull/rebuild_cache: phony src/battleship_hull/CMakeFiles/re
 #############################################
 # Order-only phony target for harbour
 
-build cmake_object_order_depends_target_harbour: phony || cmake_object_order_depends_target_battleship_hull
+build cmake_object_order_depends_target_harbour: phony || cmake_object_order_depends_target_hull
 
-build src/harbour/CMakeFiles/harbour.dir/main.c.o: C_COMPILER__harbour_Debug /Users/shalien/CLionProjects/battleship/src/harbour/main.c || cmake_object_order_depends_target_harbour
-  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
+build src/harbour/CMakeFiles/harbour.dir/src/main.c.o: C_COMPILER__harbour_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/src/main.c || cmake_object_order_depends_target_harbour
+  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/src/main.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
   OBJECT_DIR = src/harbour/CMakeFiles/harbour.dir
-  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir
+  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir/src
 
-build src/harbour/CMakeFiles/harbour.dir/server.c.o: C_COMPILER__harbour_Debug /Users/shalien/CLionProjects/battleship/src/harbour/server.c || cmake_object_order_depends_target_harbour
-  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/server.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
+build src/harbour/CMakeFiles/harbour.dir/src/server.c.o: C_COMPILER__harbour_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/src/server.c || cmake_object_order_depends_target_harbour
+  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/src/server.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
   OBJECT_DIR = src/harbour/CMakeFiles/harbour.dir
-  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir
+  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir/src
 
-build src/harbour/CMakeFiles/harbour.dir/demon.c.o: C_COMPILER__harbour_Debug /Users/shalien/CLionProjects/battleship/src/harbour/demon.c || cmake_object_order_depends_target_harbour
-  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/demon.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
+build src/harbour/CMakeFiles/harbour.dir/src/demon.c.o: C_COMPILER__harbour_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/src/demon.c || cmake_object_order_depends_target_harbour
+  DEP_FILE = src/harbour/CMakeFiles/harbour.dir/src/demon.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
   OBJECT_DIR = src/harbour/CMakeFiles/harbour.dir
-  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir
+  OBJECT_FILE_DIR = src/harbour/CMakeFiles/harbour.dir/src
 
 
 # =============================================================================
@@ -174,9 +187,9 @@ build src/harbour/CMakeFiles/harbour.dir/demon.c.o: C_COMPILER__harbour_Debug /U
 #############################################
 # Link the executable src/harbour/harbour
 
-build src/harbour/harbour: C_EXECUTABLE_LINKER__harbour_Debug src/harbour/CMakeFiles/harbour.dir/main.c.o src/harbour/CMakeFiles/harbour.dir/server.c.o src/harbour/CMakeFiles/harbour.dir/demon.c.o | src/battleship_hull/libbattleship_hull.a || src/battleship_hull/libbattleship_hull.a
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
-  LINK_LIBRARIES = src/battleship_hull/libbattleship_hull.a
+build src/harbour/harbour: C_EXECUTABLE_LINKER__harbour_Debug src/harbour/CMakeFiles/harbour.dir/src/main.c.o src/harbour/CMakeFiles/harbour.dir/src/server.c.o src/harbour/CMakeFiles/harbour.dir/src/demon.c.o | src/hull/libhull.a || src/hull/libhull.a
+  FLAGS = -g
+  LINK_LIBRARIES = src/hull/libhull.a
   OBJECT_DIR = src/harbour/CMakeFiles/harbour.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -188,7 +201,7 @@ build src/harbour/harbour: C_EXECUTABLE_LINKER__harbour_Debug src/harbour/CMakeF
 # Utility command for edit_cache
 
 build src/harbour/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -199,7 +212,7 @@ build src/harbour/edit_cache: phony src/harbour/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/harbour/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/shalien/CLionProjects/battleship -B/Users/shalien/CLionProjects/battleship/cmake-build-debug
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S/mnt/c/Users/Ophelien/CLionProjects/battleship -B/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -208,145 +221,145 @@ build src/harbour/rebuild_cache: phony src/harbour/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shalien/CLionProjects/battleship/CMakeLists.txt
+# /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target battleship_rudder
+# Object build statements for EXECUTABLE target rudder
 
 
 #############################################
-# Order-only phony target for battleship_rudder
+# Order-only phony target for rudder
 
-build cmake_object_order_depends_target_battleship_rudder: phony || cmake_object_order_depends_target_battleship_hull
+build cmake_object_order_depends_target_rudder: phony || cmake_object_order_depends_target_hull
 
-build src/battleship_rudder/CMakeFiles/battleship_rudder.dir/main.c.o: C_COMPILER__battleship_rudder_Debug /Users/shalien/CLionProjects/battleship/src/battleship_rudder/main.c || cmake_object_order_depends_target_battleship_rudder
-  DEP_FILE = src/battleship_rudder/CMakeFiles/battleship_rudder.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
-  OBJECT_DIR = src/battleship_rudder/CMakeFiles/battleship_rudder.dir
-  OBJECT_FILE_DIR = src/battleship_rudder/CMakeFiles/battleship_rudder.dir
+build src/rudder/CMakeFiles/rudder.dir/src/main.c.o: C_COMPILER__rudder_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/rudder/src/main.c || cmake_object_order_depends_target_rudder
+  DEP_FILE = src/rudder/CMakeFiles/rudder.dir/src/main.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/rudder/CMakeFiles/rudder.dir
+  OBJECT_FILE_DIR = src/rudder/CMakeFiles/rudder.dir/src
 
-build src/battleship_rudder/CMakeFiles/battleship_rudder.dir/window.c.o: C_COMPILER__battleship_rudder_Debug /Users/shalien/CLionProjects/battleship/src/battleship_rudder/window.c || cmake_object_order_depends_target_battleship_rudder
-  DEP_FILE = src/battleship_rudder/CMakeFiles/battleship_rudder.dir/window.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
-  OBJECT_DIR = src/battleship_rudder/CMakeFiles/battleship_rudder.dir
-  OBJECT_FILE_DIR = src/battleship_rudder/CMakeFiles/battleship_rudder.dir
+build src/rudder/CMakeFiles/rudder.dir/src/window.c.o: C_COMPILER__rudder_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/rudder/src/window.c || cmake_object_order_depends_target_rudder
+  DEP_FILE = src/rudder/CMakeFiles/rudder.dir/src/window.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/rudder/CMakeFiles/rudder.dir
+  OBJECT_FILE_DIR = src/rudder/CMakeFiles/rudder.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target battleship_rudder
+# Link build statements for EXECUTABLE target rudder
 
 
 #############################################
-# Link the executable src/battleship_rudder/battleship_rudder
+# Link the executable src/rudder/rudder
 
-build src/battleship_rudder/battleship_rudder: C_EXECUTABLE_LINKER__battleship_rudder_Debug src/battleship_rudder/CMakeFiles/battleship_rudder.dir/main.c.o src/battleship_rudder/CMakeFiles/battleship_rudder.dir/window.c.o | src/battleship_hull/libbattleship_hull.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libcurses.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libform.tbd || src/battleship_hull/libbattleship_hull.a
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
-  LINK_LIBRARIES = src/battleship_hull/libbattleship_hull.a  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libcurses.tbd  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib/libform.tbd
-  OBJECT_DIR = src/battleship_rudder/CMakeFiles/battleship_rudder.dir
+build src/rudder/rudder: C_EXECUTABLE_LINKER__rudder_Debug src/rudder/CMakeFiles/rudder.dir/src/main.c.o src/rudder/CMakeFiles/rudder.dir/src/window.c.o | src/hull/libhull.a /usr/lib/x86_64-linux-gnu/libmenu.so /usr/lib/x86_64-linux-gnu/libcurses.so /usr/lib/x86_64-linux-gnu/libform.so || src/hull/libhull.a
+  FLAGS = -g
+  LINK_LIBRARIES = src/hull/libhull.a  /usr/lib/x86_64-linux-gnu/libmenu.so  -lcurses  /usr/lib/x86_64-linux-gnu/libform.so
+  OBJECT_DIR = src/rudder/CMakeFiles/rudder.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = src/battleship_rudder/battleship_rudder
-  TARGET_PDB = battleship_rudder.dbg
+  TARGET_FILE = src/rudder/rudder
+  TARGET_PDB = rudder.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build src/battleship_rudder/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+build src/rudder/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/rudder && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build src/battleship_rudder/edit_cache: phony src/battleship_rudder/CMakeFiles/edit_cache.util
+build src/rudder/edit_cache: phony src/rudder/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/battleship_rudder/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/shalien/CLionProjects/battleship -B/Users/shalien/CLionProjects/battleship/cmake-build-debug
+build src/rudder/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/rudder && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S/mnt/c/Users/Ophelien/CLionProjects/battleship -B/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build src/battleship_rudder/rebuild_cache: phony src/battleship_rudder/CMakeFiles/rebuild_cache.util
+build src/rudder/rebuild_cache: phony src/rudder/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /Users/shalien/CLionProjects/battleship/CMakeLists.txt
+# /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target battleship_deck
+# Object build statements for EXECUTABLE target deck
 
 
 #############################################
-# Order-only phony target for battleship_deck
+# Order-only phony target for deck
 
-build cmake_object_order_depends_target_battleship_deck: phony || cmake_object_order_depends_target_battleship_hull
+build cmake_object_order_depends_target_deck: phony || cmake_object_order_depends_target_hull
 
-build src/battleship_deck/CMakeFiles/battleship_deck.dir/main.c.o: C_COMPILER__battleship_deck_Debug /Users/shalien/CLionProjects/battleship/src/battleship_deck/main.c || cmake_object_order_depends_target_battleship_deck
-  DEP_FILE = src/battleship_deck/CMakeFiles/battleship_deck.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -Wall -std=gnu2x
-  INCLUDES = -I/Users/shalien/CLionProjects/battleship/src/battleship_hull/source
-  OBJECT_DIR = src/battleship_deck/CMakeFiles/battleship_deck.dir
-  OBJECT_FILE_DIR = src/battleship_deck/CMakeFiles/battleship_deck.dir
+build src/deck/CMakeFiles/deck.dir/src/main.c.o: C_COMPILER__deck_Debug /mnt/c/Users/Ophelien/CLionProjects/battleship/src/deck/src/main.c || cmake_object_order_depends_target_deck
+  DEP_FILE = src/deck/CMakeFiles/deck.dir/src/main.c.o.d
+  FLAGS = -g -fcolor-diagnostics -Wall -std=gnu2x
+  INCLUDES = -I/mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/source
+  OBJECT_DIR = src/deck/CMakeFiles/deck.dir
+  OBJECT_FILE_DIR = src/deck/CMakeFiles/deck.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target battleship_deck
+# Link build statements for EXECUTABLE target deck
 
 
 #############################################
-# Link the executable src/battleship_deck/battleship_deck
+# Link the executable src/deck/deck
 
-build src/battleship_deck/battleship_deck: C_EXECUTABLE_LINKER__battleship_deck_Debug src/battleship_deck/CMakeFiles/battleship_deck.dir/main.c.o | src/battleship_hull/libbattleship_hull.a || src/battleship_hull/libbattleship_hull.a
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
-  LINK_LIBRARIES = src/battleship_hull/libbattleship_hull.a
-  OBJECT_DIR = src/battleship_deck/CMakeFiles/battleship_deck.dir
+build src/deck/deck: C_EXECUTABLE_LINKER__deck_Debug src/deck/CMakeFiles/deck.dir/src/main.c.o | src/hull/libhull.a || src/hull/libhull.a
+  FLAGS = -g
+  LINK_LIBRARIES = src/hull/libhull.a
+  OBJECT_DIR = src/deck/CMakeFiles/deck.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = src/battleship_deck/battleship_deck
-  TARGET_PDB = battleship_deck.dbg
+  TARGET_FILE = src/deck/deck
+  TARGET_PDB = deck.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build src/battleship_deck/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+build src/deck/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/deck && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build src/battleship_deck/edit_cache: phony src/battleship_deck/CMakeFiles/edit_cache.util
+build src/deck/edit_cache: phony src/deck/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build src/battleship_deck/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck && "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/shalien/CLionProjects/battleship -B/Users/shalien/CLionProjects/battleship/cmake-build-debug
+build src/deck/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/deck && /usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S/mnt/c/Users/Ophelien/CLionProjects/battleship -B/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build src/battleship_deck/rebuild_cache: phony src/battleship_deck/CMakeFiles/rebuild_cache.util
+build src/deck/rebuild_cache: phony src/deck/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build battleship_deck: phony src/battleship_deck/battleship_deck
-
-build battleship_hull: phony src/battleship_hull/libbattleship_hull.a
-
-build battleship_rudder: phony src/battleship_rudder/battleship_rudder
+build deck: phony src/deck/deck
 
 build harbour: phony src/harbour/harbour
 
-build libbattleship_hull.a: phony src/battleship_hull/libbattleship_hull.a
+build hull: phony src/hull/libhull.a
+
+build libhull.a: phony src/hull/libhull.a
+
+build rudder: phony src/rudder/rudder
 
 # =============================================================================
 # Folder targets.
@@ -354,37 +367,37 @@ build libbattleship_hull.a: phony src/battleship_hull/libbattleship_hull.a
 # =============================================================================
 
 #############################################
-# Folder: /Users/shalien/CLionProjects/battleship/cmake-build-debug
+# Folder: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
 
-build all: phony src/battleship_hull/all src/harbour/all src/battleship_rudder/all src/battleship_deck/all
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck
-
-build src/battleship_deck/all: phony src/battleship_deck/battleship_deck
+build all: phony src/hull/all src/harbour/all src/rudder/all src/deck/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull
+# Folder: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/deck
 
-build src/battleship_hull/all: phony src/battleship_hull/libbattleship_hull.a
-
-# =============================================================================
-
-#############################################
-# Folder: /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder
-
-build src/battleship_rudder/all: phony src/battleship_rudder/battleship_rudder
+build src/deck/all: phony src/deck/deck
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour
+# Folder: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour
 
 build src/harbour/all: phony src/harbour/harbour
+
+# =============================================================================
+
+#############################################
+# Folder: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/hull
+
+build src/hull/all: phony src/hull/libhull.a
+
+# =============================================================================
+
+#############################################
+# Folder: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/rudder
+
+build src/rudder/all: phony src/rudder/rudder
 
 # =============================================================================
 # Built-in targets
@@ -393,14 +406,14 @@ build src/harbour/all: phony src/harbour/harbour
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/shalien/CLionProjects/battleship/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_deck/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_hull/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_rudder/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/harbour/CMakeLists.txt /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckIncludeFile.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckLibraryExists.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindCurses.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPackageMessage.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPkgConfig.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindThreads.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/deck/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/rudder/CMakeLists.txt /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeCInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckIncludeFile.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckLibraryExists.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/Clang-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindCurses.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindThreads.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-Clang-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/shalien/CLionProjects/battleship/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_deck/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_hull/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/battleship_rudder/CMakeLists.txt /Users/shalien/CLionProjects/battleship/src/harbour/CMakeLists.txt /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckIncludeFile.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CheckLibraryExists.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/AppleClang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/Clang.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Compiler/GNU.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindCurses.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPackageMessage.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPkgConfig.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindThreads.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-AppleClang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang-C.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Apple-Clang.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin-Initialize.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/Darwin.cmake /Users/shalien/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7665.29/CLion$ 2023.1$ EAP.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
+build /mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/deck/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/hull/CMakeLists.txt /mnt/c/Users/Ophelien/CLionProjects/battleship/src/rudder/CMakeLists.txt /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeCInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeGenericSystem.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckIncludeFile.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/CheckLibraryExists.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/Clang-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/Clang.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Compiler/GNU.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindCurses.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPackageMessage.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindPkgConfig.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/FindThreads.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-Clang-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/Linux.cmake /usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.25/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake: phony
 
 
 #############################################

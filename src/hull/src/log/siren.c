@@ -2,7 +2,6 @@
 // Created by Ophélien DUPARC on 11/02/2023.
 //
 
-#include <stdarg.h>
 #include <string.h>
 #include <time.h>
 #include <errno.h>
