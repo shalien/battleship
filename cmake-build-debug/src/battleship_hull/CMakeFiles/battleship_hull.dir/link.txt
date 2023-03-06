@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbattleship_hull.a CMakeFiles/battleship_hull.dir/siren.c.o CMakeFiles/battleship_hull.dir/logo.c.o
-/usr/bin/ranlib libbattleship_hull.a
