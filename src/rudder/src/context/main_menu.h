@@ -5,8 +5,10 @@
 #ifndef BATTLESHIP_MAIN_MENU_H
 #define BATTLESHIP_MAIN_MENU_H
 
-WINDOW* new_main_menu(WINDOW* parent);
+#include "../context.h"
 
-int delete_menu(WINDOW* winptr);
+struct CONTEXT* new_main_menu(WINDOW* parent);
+
+void handle_main_menu_input(int c);
 
 #endif //BATTLESHIP_MAIN_MENU_H

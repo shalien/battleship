@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
+RM = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship
+CMAKE_SOURCE_DIR = /Users/shalien/CLionProjects/battleship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/shalien/CLionProjects/battleship/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/harbour/CMakeFiles/harbour.dir/depend.make
@@ -69,75 +69,75 @@ include src/harbour/CMakeFiles/harbour.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/harbour/CMakeFiles/harbour.dir/flags.make
 
-src/harbour/CMakeFiles/harbour.dir/main.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
-src/harbour/CMakeFiles/harbour.dir/main.c.o: /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c
-src/harbour/CMakeFiles/harbour.dir/main.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/harbour/CMakeFiles/harbour.dir/main.c.o"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/main.c.o -MF CMakeFiles/harbour.dir/main.c.o.d -o CMakeFiles/harbour.dir/main.c.o -c /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c
+src/harbour/CMakeFiles/harbour.dir/src/main.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
+src/harbour/CMakeFiles/harbour.dir/src/main.c.o: /Users/shalien/CLionProjects/battleship/src/harbour/src/main.c
+src/harbour/CMakeFiles/harbour.dir/src/main.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/harbour/CMakeFiles/harbour.dir/src/main.c.o"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/src/main.c.o -MF CMakeFiles/harbour.dir/src/main.c.o.d -o CMakeFiles/harbour.dir/src/main.c.o -c /Users/shalien/CLionProjects/battleship/src/harbour/src/main.c
 
-src/harbour/CMakeFiles/harbour.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/main.c.i"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c > CMakeFiles/harbour.dir/main.c.i
+src/harbour/CMakeFiles/harbour.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/src/main.c.i"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shalien/CLionProjects/battleship/src/harbour/src/main.c > CMakeFiles/harbour.dir/src/main.c.i
 
-src/harbour/CMakeFiles/harbour.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/main.c.s"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c -o CMakeFiles/harbour.dir/main.c.s
+src/harbour/CMakeFiles/harbour.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/src/main.c.s"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shalien/CLionProjects/battleship/src/harbour/src/main.c -o CMakeFiles/harbour.dir/src/main.c.s
 
-src/harbour/CMakeFiles/harbour.dir/server.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
-src/harbour/CMakeFiles/harbour.dir/server.c.o: /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c
-src/harbour/CMakeFiles/harbour.dir/server.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/harbour/CMakeFiles/harbour.dir/server.c.o"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/server.c.o -MF CMakeFiles/harbour.dir/server.c.o.d -o CMakeFiles/harbour.dir/server.c.o -c /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c
+src/harbour/CMakeFiles/harbour.dir/src/server.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
+src/harbour/CMakeFiles/harbour.dir/src/server.c.o: /Users/shalien/CLionProjects/battleship/src/harbour/src/server.c
+src/harbour/CMakeFiles/harbour.dir/src/server.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/harbour/CMakeFiles/harbour.dir/src/server.c.o"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/src/server.c.o -MF CMakeFiles/harbour.dir/src/server.c.o.d -o CMakeFiles/harbour.dir/src/server.c.o -c /Users/shalien/CLionProjects/battleship/src/harbour/src/server.c
 
-src/harbour/CMakeFiles/harbour.dir/server.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/server.c.i"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c > CMakeFiles/harbour.dir/server.c.i
+src/harbour/CMakeFiles/harbour.dir/src/server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/src/server.c.i"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shalien/CLionProjects/battleship/src/harbour/src/server.c > CMakeFiles/harbour.dir/src/server.c.i
 
-src/harbour/CMakeFiles/harbour.dir/server.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/server.c.s"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c -o CMakeFiles/harbour.dir/server.c.s
+src/harbour/CMakeFiles/harbour.dir/src/server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/src/server.c.s"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shalien/CLionProjects/battleship/src/harbour/src/server.c -o CMakeFiles/harbour.dir/src/server.c.s
 
-src/harbour/CMakeFiles/harbour.dir/demon.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
-src/harbour/CMakeFiles/harbour.dir/demon.c.o: /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c
-src/harbour/CMakeFiles/harbour.dir/demon.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/harbour/CMakeFiles/harbour.dir/demon.c.o"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/demon.c.o -MF CMakeFiles/harbour.dir/demon.c.o.d -o CMakeFiles/harbour.dir/demon.c.o -c /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c
+src/harbour/CMakeFiles/harbour.dir/src/demon.c.o: src/harbour/CMakeFiles/harbour.dir/flags.make
+src/harbour/CMakeFiles/harbour.dir/src/demon.c.o: /Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c
+src/harbour/CMakeFiles/harbour.dir/src/demon.c.o: src/harbour/CMakeFiles/harbour.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/harbour/CMakeFiles/harbour.dir/src/demon.c.o"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/harbour/CMakeFiles/harbour.dir/src/demon.c.o -MF CMakeFiles/harbour.dir/src/demon.c.o.d -o CMakeFiles/harbour.dir/src/demon.c.o -c /Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c
 
-src/harbour/CMakeFiles/harbour.dir/demon.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/demon.c.i"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c > CMakeFiles/harbour.dir/demon.c.i
+src/harbour/CMakeFiles/harbour.dir/src/demon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/harbour.dir/src/demon.c.i"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c > CMakeFiles/harbour.dir/src/demon.c.i
 
-src/harbour/CMakeFiles/harbour.dir/demon.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/demon.c.s"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c -o CMakeFiles/harbour.dir/demon.c.s
+src/harbour/CMakeFiles/harbour.dir/src/demon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/harbour.dir/src/demon.c.s"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c -o CMakeFiles/harbour.dir/src/demon.c.s
 
 # Object files for target harbour
 harbour_OBJECTS = \
-"CMakeFiles/harbour.dir/main.c.o" \
-"CMakeFiles/harbour.dir/server.c.o" \
-"CMakeFiles/harbour.dir/demon.c.o"
+"CMakeFiles/harbour.dir/src/main.c.o" \
+"CMakeFiles/harbour.dir/src/server.c.o" \
+"CMakeFiles/harbour.dir/src/demon.c.o"
 
 # External object files for target harbour
 harbour_EXTERNAL_OBJECTS =
 
-src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/main.c.o
-src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/server.c.o
-src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/demon.c.o
+src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/src/main.c.o
+src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/src/server.c.o
+src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/src/demon.c.o
 src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/build.make
-src/harbour/harbour: src/battleship_hull/libbattleship_hull.a
+src/harbour/harbour: src/hull/libhull.a
 src/harbour/harbour: src/harbour/CMakeFiles/harbour.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable harbour"
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/harbour.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable harbour"
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/harbour.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/harbour/CMakeFiles/harbour.dir/build: src/harbour/harbour
 .PHONY : src/harbour/CMakeFiles/harbour.dir/build
 
 src/harbour/CMakeFiles/harbour.dir/clean:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour && $(CMAKE_COMMAND) -P CMakeFiles/harbour.dir/cmake_clean.cmake
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour && $(CMAKE_COMMAND) -P CMakeFiles/harbour.dir/cmake_clean.cmake
 .PHONY : src/harbour/CMakeFiles/harbour.dir/clean
 
 src/harbour/CMakeFiles/harbour.dir/depend:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Ophelien/CLionProjects/battleship /mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/CMakeFiles/harbour.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shalien/CLionProjects/battleship /Users/shalien/CLionProjects/battleship/src/harbour /Users/shalien/CLionProjects/battleship/cmake-build-debug /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/CMakeFiles/harbour.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/harbour/CMakeFiles/harbour.dir/depend
 

@@ -5,252 +5,287 @@
 		<Option title="battleship"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\battleship_hull\;CMake Files\src\harbour\;CMake Files\src\battleship_rudder\;CMake Files\src\battleship_deck\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\hull\;CMake Files\src\harbour\;CMake Files\src\rudder\;CMake Files\src\deck\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_hull">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/libbattleship_hull.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull"/>
+			<Target title="hull">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/libhull.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 battleship_hull"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 hull"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_hull/fast">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/libbattleship_hull.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull"/>
+			<Target title="hull/fast">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/libhull.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 battleship_hull/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 hull/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="harbour">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/harbour" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour"/>
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/harbour" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 harbour"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 harbour"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="harbour/fast">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/harbour" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour"/>
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/harbour" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 harbour/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 harbour/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_rudder">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/battleship_rudder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder"/>
+			<Target title="rudder">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/rudder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 battleship_rudder"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 rudder"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_rudder/fast">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/battleship_rudder" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder"/>
+			<Target title="rudder/fast">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/rudder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 battleship_rudder/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 rudder/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/rudder/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_deck">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/battleship_deck" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck"/>
+			<Target title="deck">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/deck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 battleship_deck"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 deck"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="battleship_deck/fast">
-				<Option output="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/battleship_deck" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck"/>
+			<Target title="deck/fast">
+				<Option output="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/deck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/source"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/Users/shalien/CLionProjects/battleship/src/hull/source"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 battleship_deck/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_deck/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 deck/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/deck/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_deck/main.c">
-			<Option target="battleship_deck"/>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/deck/src/main.c">
+			<Option target="deck"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/logo.c">
-			<Option target="battleship_hull"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/logo.h">
-			<Option target="battleship_hull"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/siren.c">
-			<Option target="battleship_hull"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/siren.h">
-			<Option target="battleship_hull"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/main.c">
-			<Option target="battleship_rudder"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/window.c">
-			<Option target="battleship_rudder"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/window.h">
-			<Option target="battleship_rudder"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c">
 			<Option target="harbour"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.h">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/demon.h">
 			<Option target="harbour"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/main.c">
 			<Option target="harbour"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/main.h">
 			<Option target="harbour"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.h">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/server.c">
 			<Option target="harbour"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/CMakeLists.txt">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/src/server.h">
+			<Option target="harbour"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/curses/curses_utils.c">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/curses/curses_utils.h">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/log/siren.c">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/log/siren.h">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/utils/array_utils.c">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/utils/array_utils.h">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/utils/string_utils.c">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/src/utils/string_utils.h">
+			<Option target="hull"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/context.c">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/context.h">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/context/main_menu.c">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/context/main_menu.h">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/main.c">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/window.c">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/src/window.h">
+			<Option target="rudder"/>
+		</Unit>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_hull/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\battleship_hull\"/>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/hull/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\hull\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/CMakeLists.txt">
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/harbour/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\harbour\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_rudder/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\battleship_rudder\"/>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/rudder/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\rudder\"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Ophelien/CLionProjects/battleship/src/battleship_deck/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\src\battleship_deck\"/>
+		<Unit filename="/Users/shalien/CLionProjects/battleship/src/deck/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\deck\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

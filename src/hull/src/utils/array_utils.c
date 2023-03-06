@@ -5,6 +5,6 @@
 #include "array_utils.h"
 
 
-extern int array_length(void** array) {
-    return sizeof(array) / sizeof((char *) array[0]);
+extern int array_length(void* array) {
+    return sizeof(array) / sizeof(((char *) array)[0]);
 }

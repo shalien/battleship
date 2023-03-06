@@ -4,6 +4,7 @@
 
 #include <string.h>
 #include <stdio.h>
+#include <stdarg.h>
 #include "string_utils.h"
 
 /**

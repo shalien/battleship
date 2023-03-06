@@ -8,10 +8,10 @@
 
 bool is_close_requested = false;
 
-int main() {
+int main(int argc, char* argv[]) {
 
     L("Starting rudder");
     L("Starting curses mode");
 
-    init_screen();
+     init_screen();
 }

@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/demon.c" "src/harbour/CMakeFiles/harbour.dir/demon.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/demon.c.o.d"
-  "/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/main.c" "src/harbour/CMakeFiles/harbour.dir/main.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/main.c.o.d"
-  "/mnt/c/Users/Ophelien/CLionProjects/battleship/src/harbour/server.c" "src/harbour/CMakeFiles/harbour.dir/server.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/server.c.o.d"
+  "/Users/shalien/CLionProjects/battleship/src/harbour/src/demon.c" "src/harbour/CMakeFiles/harbour.dir/src/demon.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/src/demon.c.o.d"
+  "/Users/shalien/CLionProjects/battleship/src/harbour/src/main.c" "src/harbour/CMakeFiles/harbour.dir/src/main.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/src/main.c.o.d"
+  "/Users/shalien/CLionProjects/battleship/src/harbour/src/server.c" "src/harbour/CMakeFiles/harbour.dir/src/server.c.o" "gcc" "src/harbour/CMakeFiles/harbour.dir/src/server.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/battleship_hull/CMakeFiles/battleship_hull.dir/DependInfo.cmake"
+  "/Users/shalien/CLionProjects/battleship/cmake-build-debug/src/hull/CMakeFiles/hull.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

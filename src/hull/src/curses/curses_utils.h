@@ -7,6 +7,14 @@
 
 extern int top_left_text(WINDOW* window, const char* format, ...);
 
-extern int top_center_text(WINDOW*, const char* format, ...);
+extern int top_center_text(WINDOW* window, const char* format, ...);
+
+extern int top_right_text(WINDOW* window, const char* format, ...);
+
+extern int bottom_left_text(WINDOW* window, const char* format, ...);
+
+extern int bottom_center_text(WINDOW* window, const char* format, ...);
+
+extern int bottom_right_text(WINDOW* window, const char* format, ...);
 
 #endif //BATTLESHIP_CURSES_UTILS_H

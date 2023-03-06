@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <unistd.h>
+#include <stdarg.h>
 #include <sys/types.h>
 
 #ifndef BATTLESHIP_SIREN_H

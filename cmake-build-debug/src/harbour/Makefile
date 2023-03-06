@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
+RM = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship
+CMAKE_SOURCE_DIR = /Users/shalien/CLionProjects/battleship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/shalien/CLionProjects/battleship/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/src/harbour//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles 0
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles /Users/shalien/CLionProjects/battleship/cmake-build-debug/src/harbour//CMakeFiles/progress.marks
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/clean
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/preinstall
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/preinstall
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/harbour/CMakeFiles/harbour.dir/rule:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/CMakeFiles/harbour.dir/rule
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/harbour/CMakeFiles/harbour.dir/rule
 .PHONY : src/harbour/CMakeFiles/harbour.dir/rule
 
 # Convenience name for target.
@@ -127,80 +127,80 @@ harbour: src/harbour/CMakeFiles/harbour.dir/rule
 
 # fast build rule for target.
 harbour/fast:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/build
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/build
 .PHONY : harbour/fast
 
-demon.o: demon.c.o
-.PHONY : demon.o
+src/demon.o: src/demon.c.o
+.PHONY : src/demon.o
 
 # target to build an object file
-demon.c.o:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/demon.c.o
-.PHONY : demon.c.o
+src/demon.c.o:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/demon.c.o
+.PHONY : src/demon.c.o
 
-demon.i: demon.c.i
-.PHONY : demon.i
+src/demon.i: src/demon.c.i
+.PHONY : src/demon.i
 
 # target to preprocess a source file
-demon.c.i:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/demon.c.i
-.PHONY : demon.c.i
+src/demon.c.i:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/demon.c.i
+.PHONY : src/demon.c.i
 
-demon.s: demon.c.s
-.PHONY : demon.s
+src/demon.s: src/demon.c.s
+.PHONY : src/demon.s
 
 # target to generate assembly for a file
-demon.c.s:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/demon.c.s
-.PHONY : demon.c.s
+src/demon.c.s:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/demon.c.s
+.PHONY : src/demon.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+src/main.o: src/main.c.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.c.o:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/main.c.o
-.PHONY : main.c.o
+src/main.c.o:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/main.c.i
-.PHONY : main.c.i
+src/main.c.i:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/main.c.s
-.PHONY : main.c.s
+src/main.c.s:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-server.o: server.c.o
-.PHONY : server.o
+src/server.o: src/server.c.o
+.PHONY : src/server.o
 
 # target to build an object file
-server.c.o:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/server.c.o
-.PHONY : server.c.o
+src/server.c.o:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/server.c.o
+.PHONY : src/server.c.o
 
-server.i: server.c.i
-.PHONY : server.i
+src/server.i: src/server.c.i
+.PHONY : src/server.i
 
 # target to preprocess a source file
-server.c.i:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/server.c.i
-.PHONY : server.c.i
+src/server.c.i:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/server.c.i
+.PHONY : src/server.c.i
 
-server.s: server.c.s
-.PHONY : server.s
+src/server.s: src/server.c.s
+.PHONY : src/server.s
 
 # target to generate assembly for a file
-server.c.s:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/server.c.s
-.PHONY : server.c.s
+src/server.c.s:
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/harbour/CMakeFiles/harbour.dir/build.make src/harbour/CMakeFiles/harbour.dir/src/server.c.s
+.PHONY : src/server.c.s
 
 # Help Target
 help:
@@ -211,15 +211,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... harbour"
-	@echo "... demon.o"
-	@echo "... demon.i"
-	@echo "... demon.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... server.o"
-	@echo "... server.i"
-	@echo "... server.s"
+	@echo "... src/demon.o"
+	@echo "... src/demon.i"
+	@echo "... src/demon.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/server.o"
+	@echo "... src/server.i"
+	@echo "... src/server.s"
 .PHONY : help
 
 
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/shalien/CLionProjects/battleship/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

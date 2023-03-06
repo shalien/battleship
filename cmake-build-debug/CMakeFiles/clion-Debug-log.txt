@@ -1,4 +1,4 @@
-C:\WINDOWS\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export PATH=\"/usr/bin:$PATH\" && export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug && /usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/usr/bin/clang '-DCMAKE_CXX_COMPILER=/usr/bin/clang++' -G Ninja -S /mnt/c/Users/Ophelien/CLionProjects/battleship -B /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug"
+"/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/shalien/CLionProjects/battleship -B /Users/shalien/CLionProjects/battleship/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
+-- Build files have been written to: /Users/shalien/CLionProjects/battleship/cmake-build-debug

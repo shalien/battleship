@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E rm -f
+RM = "/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship
+CMAKE_SOURCE_DIR = /Users/shalien/CLionProjects/battleship
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/shalien/CLionProjects/battleship/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-de
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/lib/python3.8/dist-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/shalien/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.7864.77/CLion 2023.1 EAP.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles /Users/shalien/CLionProjects/battleship/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Ophelien/CLionProjects/battleship/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shalien/CLionProjects/battleship/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named battleship_hull
+# Target rules for targets named hull
 
 # Build rule for target.
-battleship_hull: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battleship_hull
-.PHONY : battleship_hull
+hull: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hull
+.PHONY : hull
 
 # fast build rule for target.
-battleship_hull/fast:
-	$(MAKE) $(MAKESILENT) -f src/battleship_hull/CMakeFiles/battleship_hull.dir/build.make src/battleship_hull/CMakeFiles/battleship_hull.dir/build
-.PHONY : battleship_hull/fast
+hull/fast:
+	$(MAKE) $(MAKESILENT) -f src/hull/CMakeFiles/hull.dir/build.make src/hull/CMakeFiles/hull.dir/build
+.PHONY : hull/fast
 
 #=============================================================================
 # Target rules for targets named harbour
@@ -143,30 +143,30 @@ harbour/fast:
 .PHONY : harbour/fast
 
 #=============================================================================
-# Target rules for targets named battleship_rudder
+# Target rules for targets named rudder
 
 # Build rule for target.
-battleship_rudder: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battleship_rudder
-.PHONY : battleship_rudder
+rudder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rudder
+.PHONY : rudder
 
 # fast build rule for target.
-battleship_rudder/fast:
-	$(MAKE) $(MAKESILENT) -f src/battleship_rudder/CMakeFiles/battleship_rudder.dir/build.make src/battleship_rudder/CMakeFiles/battleship_rudder.dir/build
-.PHONY : battleship_rudder/fast
+rudder/fast:
+	$(MAKE) $(MAKESILENT) -f src/rudder/CMakeFiles/rudder.dir/build.make src/rudder/CMakeFiles/rudder.dir/build
+.PHONY : rudder/fast
 
 #=============================================================================
-# Target rules for targets named battleship_deck
+# Target rules for targets named deck
 
 # Build rule for target.
-battleship_deck: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battleship_deck
-.PHONY : battleship_deck
+deck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deck
+.PHONY : deck
 
 # fast build rule for target.
-battleship_deck/fast:
-	$(MAKE) $(MAKESILENT) -f src/battleship_deck/CMakeFiles/battleship_deck.dir/build.make src/battleship_deck/CMakeFiles/battleship_deck.dir/build
-.PHONY : battleship_deck/fast
+deck/fast:
+	$(MAKE) $(MAKESILENT) -f src/deck/CMakeFiles/deck.dir/build.make src/deck/CMakeFiles/deck.dir/build
+.PHONY : deck/fast
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... battleship_deck"
-	@echo "... battleship_hull"
-	@echo "... battleship_rudder"
+	@echo "... deck"
 	@echo "... harbour"
+	@echo "... hull"
+	@echo "... rudder"
 .PHONY : help
 
 
